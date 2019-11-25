@@ -1,0 +1,18 @@
+<svg id="download.svg" xmlns="http://www.w3.org/2000/svg" width="88" height="22" viewBox="0 0 88 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5fc8d1;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_2_copy_3" data-name="Rectangle 2 copy 3" class="cls-1" d="M86,2h2V20H86V2ZM0,2H2V20H0V2ZM0,0H88V2H0V0ZM0,20H88v2H0V20Z"/>
+  <path class="cls-1" d="M7,7H9v8H7V7ZM9,5h6V7H9V5ZM9,15h6v2H9V15Zm6-2h2v2H15V13Zm0-6h2V9H15V7Z"/>
+  <path class="cls-1" d="M19,5h2V17H19V5Zm2,4h2v2H21V9Zm2-2h2V9H23V7Zm2-2h2V7H25V5Zm-2,6h2v4H23V11Zm2,4h2v2H25V15Z"/>
+  <path class="cls-1" d="M31,5h6V7H31V5Zm6,0h2V17H37V5ZM31,15h6v2H31V15ZM29,7h2v8H29V7Z"/>
+  <path class="cls-1" d="M41,5h2v5H41V5Zm2,5h4v2H43V10Zm4-5h2V17H47V5Z"/>
+  <path class="cls-1" d="M53,5h6V7H53V5Zm6,0h2V17H59V5ZM53,15h6v2H53V15ZM51,7h2v8H51V7Z"/>
+  <path class="cls-1" d="M63,5h8V7H63V5Zm3,2h2V17H66V7Z"/>
+  <path class="cls-1" d="M73,5h2V17H73V5Zm2,10h4v2H75V15Zm0-4h4v2H75V11Zm4,2h2v4H79V13Z"/>
+</svg>

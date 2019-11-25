@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4400 4400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil0 {fill:black}
+    .fil2 {fill:#5FC8D1}
+    .fil1 {fill:#9E9E9E}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect width="4400" height="4400"/>
+   </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="0" y="0" width="4400" height="4400" xlink:href="polimer_Images\polimer_ImgID1.png"/>
+  </g>
+  <rect class="fil0" x="1900" width="600" height="400"/>
+  <path class="fil1" d="M3100 600l200 0 0 3800 -2200 0 0 -3800 200 0 0 -200 1800 0 0 200zm0 3600l0 -3400 -200 0 0 -200 -1400 0 0 200 -200 0 0 3400 1800 0z"/>
+  <rect class="fil2" x="1300" y="1000" width="1800" height="3200"/>
+  <rect class="fil3" width="4400" height="4400"/>
+ </g>
+</svg>

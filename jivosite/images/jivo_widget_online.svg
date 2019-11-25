@@ -1,0 +1,19 @@
+<svg id="jivo_widget_online.svg" xmlns="http://www.w3.org/2000/svg" width="22" height="88" viewBox="0 0 22 88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1685f;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #666;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-1" d="M2,0H20V2H2V0ZM2,86H20v2H2V86ZM0,0H2V88H0V0ZM20,0h2V88H20V0Z"/>
+  <path class="cls-2" d="M7,60H9v4H7V60Zm8,0h2v4H15V60ZM9,64h6v2H9V64Zm0-6h6v2H9V58ZM7,50H9v4H7V50Zm0,4H17v2H7V54Zm2-6h8v2H9V48ZM4,44H17v2H4V44Zm0-3H6v2H4V41Zm3,0H17v2H7V41Zm0-8H9v4H7V33Zm0,4H17v2H7V37Zm2-6h8v2H9V31Zm0-3h6v2H9V28Zm3-7h2v7H12V21ZM7,21H9v7H7V21Zm2,0h3v2H9V21Zm6,2h2v5H15V23Z"/>
+</svg>

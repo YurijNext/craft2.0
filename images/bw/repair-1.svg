@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4400 4400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil5 {fill:none}
+    .fil3 {fill:black}
+    .fil1 {fill:#5FC8D1}
+    .fil2 {fill:#9E9E9E}
+    .fil4 {fill:#D1685F}
+    .fil0 {fill:#D1A15F}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="900,1200 3500,1200 3500,1400 900,1400 "/>
+  <polygon class="fil1" points="2000,3800 2100,3800 2100,1600 2000,1600 2000,1400 2400,1400 2400,1600 2300,1600 2300,3800 2400,3800 2400,4000 2000,4000 "/>
+  <polygon class="fil2" points="800,4200 400,4200 400,0 800,0 800,400 2200,400 2400,400 2400,600 2200,600 800,600 800,4000 2200,4000 3600,4000 3600,600 3400,600 3400,400 3600,400 3600,0 4000,0 4000,4200 3600,4200 "/>
+  <path class="fil3" d="M2400 0l1000 0 0 800 -1000 0 0 -800zm1600 4400l-400 0 0 -200 400 0 0 200zm-3200 0l-400 0 0 -200 400 0 0 200zm2400 -3800l-600 0 0 -400 600 0 0 400z"/>
+  <polygon class="fil4" points="3200,1000 3000,1000 3000,1200 2800,1200 2800,1000 2600,1000 2600,800 2800,800 2800,1000 3000,1000 3000,800 3200,800 "/>
+  <rect class="fil5" width="4400" height="4400"/>
+ </g>
+</svg>

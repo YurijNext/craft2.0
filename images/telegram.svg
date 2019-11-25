@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4fb5e0;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="telegram.svg" class="cls-1" d="M2,0H20V2H2V0ZM2,20H20v2H2V20ZM20,0h2V22H20V0ZM0,0H2V22H0V0ZM4,10H6V9H8V8h3V7h2V6h3V5h2V8H17v5H16v4H15V16H13V15H12V14H11v1H10v1H8V13H7V12H6V11H4V10Zm4,1v2h2V12h1V11h1V10h1V9h1V8h1V7H14V8H13V9H11v1H9v1H8Z"/>
+</svg>
