@@ -45,7 +45,7 @@
         <div class="main-footer-wrap">
           <a href="index.html" class="main-footer-logo">
             <svg class="main-footer-logo-img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="156px" height="16px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-                viewBox="0 0 156 16"
+                viewBox="0 0 119 16"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
                  data-name="Layer 1">
                  <defs>

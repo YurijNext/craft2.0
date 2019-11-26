@@ -47,14 +47,14 @@
   <link rel="stylesheet" href="lib/fancy/jquery.fancybox.min.css">
   <link rel="stylesheet" href="lib/reset/reset.css">
 
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
 
 
   <!-- New css-->
   <link rel="stylesheet" href="css/css-shop.css">
   <!--Mew media css -->
-    <link rel="stylesheet" href="css/css-shop-media.css">
-  <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+  <link rel="stylesheet" href="css/css-shop-media.css">
+ <!--  <link rel="stylesheet" href="css/style.min.css"> -->
 
 <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
@@ -68,7 +68,13 @@
  
  <!-- <script src="lib/jquery-mobile-event.js"></script> -->
   <!-- map api -->
-  <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+<!--   <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script -->>
+
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=9ab5a986-fbf0-42cd-b961-0a647235092d=ru_RU"
+  type="text/javascript">
+
+  // AIRK3V0BAAAAPOK8fgQA0pJAt5xiX3KeCVxlau7wCQ02KGsAAAAAAAAAAACbUKh9FGeLoB9jnIUYpiWzwB0d9A==
+  // AIRK3V0BAAAAPOK8fgQA0pJAt5xiX3KeCVxlau7wCQ02KGsAAAAAAAAAAACbUKh9FGeLoB9jnIUYpiWzwB0d9A==
 
 
   <svg display="none">
@@ -179,6 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body class="shop">
 
 
+
 <!-- ройстат -->
 <script>
 (function(w, d, s, h, id) {
@@ -205,13 +212,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="main-header-menu-wrap">
               <button type="button" class="main-header-menu-btn js-menu-open">Меню</button>
               <button type="button" class="main-header-menu-close js-menu-close hide"></button>
+            </div>
 
-              <div class="header-full-menu js-full-menu">
+            <div class="main-header-addres js-address">
+              <a href="contacts.php" class="main-header-dot" title="Контакты">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px"><g><g>
+                  <g>
+                    <path d="M256,0C156.748,0,76,80.748,76,180c0,33.534,9.289,66.26,26.869,94.652l142.885,230.257    c2.737,4.411,7.559,7.091,12.745,7.091c0.04,0,0.079,0,0.119,0c5.231-0.041,10.063-2.804,12.75-7.292L410.611,272.22    C427.221,244.428,436,212.539,436,180C436,80.748,355.252,0,256,0z M384.866,256.818L258.272,468.186l-129.905-209.34    C113.734,235.214,105.8,207.95,105.8,180c0-82.71,67.49-150.2,150.2-150.2S406.1,97.29,406.1,180    C406.1,207.121,398.689,233.688,384.866,256.818z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                  </g>
+                </g><g>
+                  <g>
+                    <path d="M256,90c-49.626,0-90,40.374-90,90c0,49.309,39.717,90,90,90c50.903,0,90-41.233,90-90C346,130.374,305.626,90,256,90z     M256,240.2c-33.257,0-60.2-27.033-60.2-60.2c0-33.084,27.116-60.2,60.2-60.2s60.1,27.116,60.1,60.2    C316.1,212.683,289.784,240.2,256,240.2z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                  </g>
+                </g></g> </svg>
+
+              </a>
+
+              <div class="main-header-city">
+                <span class="main-header-checked">Москва</span>
+
+                <ul class="header-city-drop">
+                  <li><a href="http://arh.3dcrafter.ru/" title="3D печать Архангельск">Архангельск</a></li>
+                  <li><a href="http://vrn.3dcrafter.ru/" title="3D печать Воронеж">Воронеж</a></li>
+                  <li><a href="http://ekb.3Dcrafter.ru/" title="3D печать Екатеринбург">Екатеринбург</a></li>
+                  <li><a href="https://3dcrafter.ru/" title="3D печать Москва">Москва</a></li>
+                  <li><a href="http://nn.3Dcrafter.ru/" title="3D печать Нижний Новгород">Нижний Новгород</a></li>
+                  <li><a href="http://spb.3Dcrafter.ru/" title="3D печать Санкт-Петербург">Санкт-Петербург</a></li>
+                  <li><a href="http://ufa.3dcrafter.ru/" title="3D печать Уфа">Уфа</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="header-full-menu js-full-menu">
                 <div class="container">
                     <div class="header-menu-collums">
                       <ul class="heder-menu-collumn">
                         <li class="header-menu-cat">Магазин
-                          <ul>
+                          <ul class="shop-menu-dropdown">
                             <li><a href="#" title="Designer X">Designer X</a></li>
                             <li><a href="#" title="Designer XPRO">Designer XPRO</a> </li>
                             <li><a href="#" title="Designer XL ">Designer XL  </a></li>
@@ -221,7 +260,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           </ul>
                         </li>
                         <li class="header-menu-cat">Faq
-                          <ul>
+                          <ul class="shop-menu-dropdown">
                             <li><a href="#" title="Мин. заказ">Мин. заказ</a></li>
                             <li><a href="#" title="Доставка">Доставка </a></li>
                             <li><a href="#" title="Cкидки">Cкидки </a></li>
@@ -231,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                       <ul class="heder-menu-collumn">
                         <li class="header-menu-cat">Услуги
-                          <ul>
+                          <ul class="shop-menu-dropdown">
                             <li><a href="#" title="3D-печать">3D-печать <a/></li>
                             <li><a href="#" title="3D-моделирование">3D-моделирование <a/></li>
                             <li><a href="#" title="Стоимость">Стоимость <a/></li>
@@ -242,8 +281,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </ul>
 
                       <ul class="heder-menu-collumn">
-                        <li class="header-menu-cat">Компания
-                          <ul>
+                        <li class="header-menu-cat">КОМПАНИЯ
+                          <ul class="shop-menu-dropdown">
                             <li><a href="#" title="О на">О нас  </a></li>
                             <li><a href="#" title="Технологии ">Технологии  </a></li>
                             <li><a href="#" title="Новости">Новости</a></li>    
@@ -309,28 +348,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </footer>
                 </div>
               </div>
-            </div>
-
-            <div class="main-header-addres js-address">
-              <a href="contacts.php" class="main-header-dot" title="Контакты">
-                <img src="images/shop/png/map-dot.png" alt="Dot icon">
-              </a>
-
-              <div class="main-header-city">
-                <span class="main-header-checked">Москва</span>
-
-                <ul class="header-city-drop">
-                  <li><a href="http://arh.3dcrafter.ru/" title="3D печать Архангельск">Архангельск</a></li>
-                  <li><a href="http://vrn.3dcrafter.ru/" title="3D печать Воронеж">Воронеж</a></li>
-                  <li><a href="http://ekb.3Dcrafter.ru/" title="3D печать Екатеринбург">Екатеринбург</a></li>
-                  <li><a href="https://3dcrafter.ru/" title="3D печать Москва">Москва</a></li>
-                  <li><a href="http://nn.3Dcrafter.ru/" title="3D печать Нижний Новгород">Нижний Новгород</a></li>
-                  <li><a href="http://spb.3Dcrafter.ru/" title="3D печать Санкт-Петербург">Санкт-Петербург</a></li>
-                  <li><a href="http://ufa.3dcrafter.ru/" title="3D печать Уфа">Уфа</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
           
 
           <div class="main-header-logo">
@@ -370,12 +387,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 
           <div class="main-header-right">
-            <button class="hamburger" type="button">
+            <button class="hamburger hamburger--squeeze" type="button">
               <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
               </span>
             </button>
-            <a href="tel:+74950044187" class="main-header-phone-icon"> <img src="images/shop/png/telephone-menu.png" alt="Telephone icon"></a>
+            <a href="tel:+74950044187" class="main-header-phone-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve" width="512px" height="512px"><g><g>
+                <g>
+                  <path d="M473.964,379.743l-63.357-65.555c-0.059-0.061-0.119-0.122-0.179-0.182c-17.586-17.586-46.048-17.588-63.635,0    l-28.926,28.925c-13.321,13.322-34.884,13.324-48.207,0c-0.006-0.006-0.012-0.012-0.018-0.018l-100.593-98.214    c-13.322-13.322-13.324-34.885,0-48.208l28.925-28.925c17.545-17.544,17.545-46.091,0-63.635l-63.635-63.635    c-17.545-17.543-46.091-17.543-63.635,0c-0.006,0.006-21.216,21.217-21.211,21.211c-0.005,0.006-1.923,1.923-1.928,1.929    c-63.408,63.407-63.431,166.04,0.01,229.481l173.877,171.498c63.267,63.267,165.727,63.503,229.248,0.223    c0.348-0.321,22.828-21.027,23.163-21.362C491.372,425.765,491.406,397.295,473.964,379.743z M91.916,61.507    c5.848-5.848,15.363-5.848,21.211,0l63.635,63.635c5.862,5.863,5.863,15.349,0,21.212l-10.605,10.605L81.31,72.113L91.916,61.507z     M242.653,443.194L68.776,271.696c-48.998-48.999-51.322-126.265-8.277-177.971l84.549,84.549    c-22.145,25.141-21.224,63.623,2.808,87.655l100.611,98.232c24.047,24.028,62.406,25.017,87.62,2.773l84.542,84.542    C368.413,494.851,291.612,492.152,242.653,443.194z M452.829,421.883l-10.08,9.289l-85.35-85.35l10.605-10.605    c5.843-5.842,15.274-5.86,21.137-0.075c0.117,0.121,63.391,65.591,63.51,65.709C458.44,406.641,458.499,416.022,452.829,421.883z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                </g>
+              </g><g>
+                <g>
+                  <path d="M257.02,0.02c-8.283,0-14.999,6.716-14.999,14.999s6.716,14.999,14.999,14.999c124.056,0,224.983,100.927,224.983,224.983    c0,8.283,6.716,14.999,14.999,14.999s14.999-6.715,14.999-14.999C512.001,114.072,397.96,0.02,257.02,0.02z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                </g>
+              </g><g>
+                <g>
+                  <path d="M257.02,60.015c-8.283,0-14.999,6.716-14.999,14.999s6.716,14.999,14.999,14.999c90.974,0,164.988,74.013,164.988,164.988    c0,8.283,6.716,14.999,14.999,14.999s14.999-6.715,14.999-14.999C452.006,147.486,364.535,60.015,257.02,60.015z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                </g>
+              </g><g>
+                <g>
+                  <path d="M257.02,120.011c-8.283,0-14.999,6.716-14.999,14.999s6.716,14.999,14.999,14.999    c57.893,0,104.992,47.099,104.992,104.992c0,8.283,6.716,14.999,14.999,14.999s14.999-6.715,14.999-14.999    C392.01,180.567,331.454,120.011,257.02,120.011z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                </g>
+              </g><g>
+                <g>
+                  <path d="M257.02,180.006c-8.283,0-14.999,6.716-14.999,14.999s6.716,14.999,14.999,14.999c24.811,0,44.997,20.185,44.997,44.997    c0,8.283,6.716,14.999,14.999,14.999s14.999-6.715,14.999-14.999C332.014,213.649,298.372,180.006,257.02,180.006z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#BCBCBC"/>
+                </g>
+              </g></g> </svg>
+            </a>
             <a href="tel:+74950044187" class="main-header-phone"> +7 495 00-44-187 </a>
             <a href="mail: " class="main-header-mail">
               <img src="images/shop/png/mail-icon.png" alt="Mail icon">

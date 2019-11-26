@@ -16,6 +16,8 @@
 <?php include 'partials/globals/header.php'; ?>
 
 <main class="main">
+  
+  <div class="overlay"></div>
 
   <!-- 1-st slider -->
   <?php include 'partials/shop/main-slider.php'; ?>
@@ -38,5 +40,6 @@
 
 </main> 
 <!-- /.main -->
+<?php include 'partials/shop/modal.php'; ?>
 
 <?php include 'partials/globals/footer.php'; ?>

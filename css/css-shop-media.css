@@ -1,3 +1,55 @@
+@media only screen and (min-width: 1000px) {
+	.sh-title-mob {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.sh-title-mob {
+		display: block;
+		font-family: 'CSMedium', sans-serif;
+		font-size: 20px;
+		color: #242424;
+		text-transform: uppercase;
+	}
+
+	.shop-form-questions .sh-title {
+		display: none;
+	}
+
+	.shop-form-section img {
+		margin-right: 26px;
+	}
+
+	.shop-form-section .shop-icon-wrap {
+		display: flex;
+		align-items: center;
+		margin-bottom: 32px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.shop-form-content-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.shop-form .inputs-column {
+		max-width: 50%;
+		width: 50%;
+	}
+
+	.shop-form .inputs-column-right {
+		max-width: 50%;
+		width: 50%;
+	}
+
+	.shop-form-questions {
+		max-width: 80%;
+		margin-bottom: 30px;
+	}
+}
+
 
 @media only screen and (min-width: 850px) {
 	.shop-slider-slide .mobile-printers, .shop-printers-slider .mobile-printers {
@@ -57,7 +109,7 @@
 		transform: translateX(-50%);
 	}
 
-	.priсe-item {
+	.shop-slider .priсe-item {
 		bottom: -74px;
 		right: 50%;
 		transform: translateX(50%);
@@ -65,16 +117,118 @@
 		align-items: center;
 	}
 
+	.shop-printers-slider .shop-printers-slide .priсe-item{
+		bottom: 2px;
+		right: 0;
+	}
+
 	.sh-title {
 		font-size: 20px;
 	}
 
 	.teach-left-column {
-		width: 40%;
+		width: 100%;
 	}
 
 	.teach-right-column {
 		width: 60%;
+	}
+
+	.shop-printers-slider .shop-slider-text {
+		margin-top: 0;
+		width: 55%;
+	}
+	.shop-printers-slider .shop-slider-image {
+		margin-top: 0;
+		width: 45%;
+	}
+
+	.shop-printers-slider .shop-printers-slide {
+		align-items: center;
+	}
+
+	.shop-printers {
+		margin-bottom: 80px;
+	}
+
+	.teach {
+		margin-bottom: 119px;
+	}
+
+	.shop-advantages {
+		padding-top: 0;
+		padding-bottom: 81px;
+	}
+
+	.shop-form-section {
+		padding-top: 0;
+		padding-bottom: 80px;
+	}
+
+}
+
+@media only screen and (max-width: 680px) {
+	.shop-form {
+		flex-direction: column;
+	}
+	
+	.shop-form .inputs-column {
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.shop-form .inputs-column-right {
+		max-width: 100%;
+		width: 100%;
+	}
+	
+	.shop-capcha-wrap {
+		justify-content: flex-start;
+	}
+
+	.black-map {
+		padding-top: 330px;
+	}
+
+	.shop-map {
+		height: 970px;
+		background-color: #fff;
+	}
+
+	.shop-contacts-box {
+		top: 0;
+		left: 0;
+		transform: translateY(0);
+		width: 100%;
+		max-width: 100%;
+		font-family: 'CSRegular', sans-serif;
+	}
+
+	.main-footer-colums {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-collumn {
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.main-footer-contacts {
+		text-align: center;
+	}
+
+	.main-footer-address {
+		text-align: center;
+	}
+
+	.main-footer-socials {
+		justify-content: center;
+	}
+
+	.main-footer-socials li:last-child {
+		margin-right: 0;
 	}
 
 }
@@ -92,6 +246,7 @@
 @media only screen and (max-width: 670px) {
 	.shop .container {
 		padding: 0 20px;
+		width: 100%;
 	}
 
 	.main-header-phone-icon {
@@ -106,6 +261,20 @@
 	.teach-wrapper {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.container-np {
+		padding: 0 !important;
+	}
+
+	.teach .teach-photo-slider {
+		width: 100%;
+		max-width: 100%;
+		max-height: 90%;
+	}
+
+	.teach-photo-slider .slick-slide img {
+		width: 100%;
 	}
 
 	.teach-left-column {
@@ -159,13 +328,25 @@
 
 }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (max-width: 600px) {
+	.shop-printers-slider .shop-slider-text {
+		margin-top: 0;
+		width: 45%;
+	}
+	.shop-printers-slider .shop-slider-image {
+		margin-top: 0;
+		width: 55%;
+	}
+}
+
+
+@media only screen and (min-width: 600px) {
 	.hamburger {
 		display: none;
 	}
 } 
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
 	.main-header-left {
 		display: none;
 	}
@@ -200,10 +381,16 @@
 		font-size: 14px;
 	}
 
-	.priсe-item .price{
+	.priсe-item .price, .shop-printers-slide .priсe-item {
 		font-size: 24px;
 		text-transform: uppercase;
 	}
+
+	.shop-printers-slider .shop-printers-slide .priсe-item{
+		bottom: 12px;
+		right: 0;
+	}
+
 
 	.logo-slider .logo-slide {
 		display: flex;
@@ -215,6 +402,128 @@
 	}
 }
 
+@media only screen and (min-width: 590px) {
+	.shop-printers-slider .shop-slide-buttons-mob {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.shop-printers-slider .printers-wrap {
+		flex-direction: column;
+	}
+
+	.shop-printers-slider .shop-slide-buttons {
+		display: none;
+	}
+
+	.shop-printers-slider .shop-slide-buttons-mob {
+		display: block;
+		order: 3;
+		margin-top: 70px;
+	}
+
+	.shop-printers-slide .slide-printer-title {
+		font-size: 20px;
+	}
+
+	.shop-printers-slider .shop-slider-text {
+		order: 1;
+		width: 100%;
+	}
+
+	.shop-printers-slider .shop-slider-image {
+		order: 2;
+		width: 100%;
+	}
+
+	.shop-printers-slider .detail-wrap {
+		display: none;
+	}
+
+	.shop-printers-slider .shop-printers-slide .priсe-item{
+		bottom: 60px;
+		right: 100%;
+		transform: translateX(100%);
+		font-size: 24px;
+	}
+
+	.shop-printers-slider .shop-slide-btn {
+		margin-top: 40px;
+	}
+
+	.header-menu-cat {
+		text-align: center;
+	}
+
+	.header-menu-cat .shop-menu-dropdown {
+		display: block;
+	}
+
+	.header-menu-cat .shop-menu-dropdown {
+		display: none;
+		transition: all .3s ease-out;
+		margin-bottom: 39px;
+	}
+
+	
+
+	.menu-footer-content {
+		flex-direction: column;
+		align-items: center
+	}
+
+	.header-menu-cat li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.header-menu-cat li a {
+		color: #bcbcbc;
+		font-size: 16px;
+		opacity: 0.7;
+		transition: all .3s ease-out;
+	}
+
+	.header-menu-cat li a:hover {
+		opacity: 1;
+	}
+
+	.menu-footer-content .header-menu-socilas {
+		order: 2;
+	}
+
+	.menu-footer-content .header-socials li:last-child {
+		margin-right: 0;
+	}
+
+	.footer-menu-address {
+		order: 1;
+		text-align: center;
+		margin-bottom: 17px;
+	}
+
+	.header-menu-footer {
+		border: none;
+	}
+
+	.footer-menu-copyright {
+		display: none;
+	}
+
+	.menu-footer-content {
+		margin-bottom: 30px;
+	}
+} 
+
+@media only screen and (max-width: 550px) {
+	.header-menu-collums {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 @media only screen and (max-width: 500px) {
 	.shop-slider-title {
 		font-size: 12px;
@@ -222,5 +531,226 @@
 
 	.slide-printer-descr {
 		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.shop-capcha-wrap-mob {
+		display: none;
+	}
+
+	.shop-addFile-wrap span svg {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.shop-printers-slider .printers-wrap {
+		max-width: 235px;
+	}
+
+	.shop-printers .container {
+		padding-right: 0;
+	}
+
+	.shop-slider-title {
+		top: -7px;
+	}
+
+	.shop-slider-text {
+		margin-top: 0;
+	}
+
+	.slide-printer-title {
+		margin-bottom: -5px;
+	}
+
+	.shop-slider-image {
+		margin-top: -36px;
+	}
+
+	.shop-slider .priсe-item {
+		bottom: -55px;
+	}
+
+	.shop-slide-btn-mobile {
+		padding: 12px 39px;
+		font-size: 14px;
+	}
+
+	.logos-slider-wrap {
+		bottom: -84px;
+	}
+
+	.teach {
+		margin-top: 198px;
+		margin-bottom: 96px;
+	}
+
+	.finger-wrap {
+		margin-bottom: 0;
+	}
+
+	.mob-button-wrap .teach-descr {
+		font-size: 12px;
+	}
+
+	.mob-button-wrap .teach-btn {
+		font-size: 12px;
+		padding: 14px 76px;
+	}
+
+	.shop-printers-slider .shop-slide-buttons-mob {
+		margin-top: 12px;
+	}
+
+	.shop-printers-slider .shop-slide-btn {
+		padding: 14px 40px;
+		font-size: 12px;
+		margin-top: 30px;
+
+	}
+
+	.shop-printers-slider .shop-printers-slide .priсe-item {
+		bottom: 46px;
+	}
+
+	.mr-bottom {
+		margin-bottom: 0;
+	}
+
+	.shop-advantages .sh-title {
+		margin-bottom: 26px;
+	}
+
+	.shop-advantages {
+		padding-bottom: 118px;
+	}
+
+	.sh-descr {
+		font-size: 12px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.shop-form-questions .sh-descr {
+		margin-bottom: 9px;
+    	line-height: 16px;
+	}
+
+	.shop-form-questions {
+		margin-bottom: 0;
+	}
+
+	.shop-capcha-wrap {
+		display: none;
+	}
+
+	.shop-capcha-wrap-mob {
+		display: block;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 35px;
+		font-family: 'CSRegular', sans-serif;
+	}
+
+	.shop-form .inputs-column {
+		margin-bottom: 0;
+	}
+
+	.shop-map {
+		height: 452px;
+		padding-top: 266px;
+	}
+
+	.shop-map .sh-title {
+		font-size: 32px;
+		color: #242424;
+	}
+
+	.shop-map .ymaps-map {
+		max-height: 200px;
+	}
+
+	.shop-contacts-box {
+		font-size: 12px;
+		padding-bottom: 0;
+	}
+
+	.shop-capcha-answ {
+		width: 100px;
+	}
+
+	.logo-slider{
+		padding: 0 20px;
+	}
+
+	.logo-slider .logo-slide {
+		width: 75px !important;
+	}
+
+	.logo-slider .slick-track {
+		width: 322px !important;
+	}
+
+	.black-map {
+		height: 200px;
+		bottom: 0px;
+		padding-top: 0;
+	}
+
+	.balck-map .ymaps-map {
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.shop-contacts-box {
+		top: -270px;
+	}
+	
+	.add-title {
+		display: none;
+	}
+
+	.shop-addFile-wrap span svg {
+		display: block;
+		width: 30px;
+	}
+
+	.shop-addFile-wrap:hover span svg path{
+		fill: #666;
+	}
+
+	.shop-addFile-wrap {
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 322px) {
+
+	.shop-printers-slider .printers-wrap {
+		max-width: 200px;
+	}
+
+
+	.shop-slider-title {
+		top: -7px;
+	}
+
+	.shop-slider-text {
+		margin-top: 0;
+	}
+
+	.slide-printer-title {
+		margin-bottom: -5px;
+	}
+
+	.shop-slider-image {
+		margin-top: -41px;
+	}
+
+	.mob-button-wrap .teach-btn span {
+		white-space: nowrap;
 	}
 }

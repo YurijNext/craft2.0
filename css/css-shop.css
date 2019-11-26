@@ -6,10 +6,15 @@
 }
 
 
+.shop .main {
+	padding-top: 0;
+}
+
 
 .shop {
 	padding-top: 70px;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
+	background: none;
 }
 
 .shop-btn {
@@ -246,9 +251,10 @@
 }
 
 .main-header-dot {
-	width: 13px;
+	width: 18px;
 	height: 17px;
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 .main-header-dot img {
@@ -351,6 +357,10 @@
 	color: #fff;
 }
 
+.footer-menu-copyright {
+	margin-bottom: 20px;
+}
+
 .main-header-mail {
 	display: flex;
 	align-items: center;
@@ -368,6 +378,7 @@
 	width: 100%;
 	height: 100vh;
 	left: 0;
+	top: 100%;
 	background-color:  #242424;
 	padding-top: 58px;
 	padding-bottom: 60px;
@@ -390,6 +401,8 @@
 }
 
 
+
+
 .header-menu-cat {
 	text-transform: uppercase;
 	font-size: 16px;
@@ -402,12 +415,16 @@
 	border-top: 1px solid #bcbcbc;
 }
 
-.header-menu-cat ul {
+.header-menu-cat .shop-menu-dropdown {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	margin-top: 20px;
 	max-width: 252px;
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
+	background-color: #fff;
 }
 
 .header-menu-cat li {
@@ -510,6 +527,10 @@
 	top: 138px;
 }
 
+.shop-slider-cont {
+	margin-bottom: 98px;
+}
+
 .shop-slider-wrap {
 	position: relative;
 	padding-bottom: 40px;
@@ -569,6 +590,10 @@
 	margin-bottom: 37px;
 }
 
+.shop-printers-slider {
+	margin-top: 80px;
+}
+
 .shop-printers-slider .shop-slider-text {
 	margin-top: 175px;
 }
@@ -599,7 +624,16 @@
 
 .shop-slider-image {
 	margin-top: 70px;
-	min-width: 340px;
+	min-width: 180px;
+}
+
+.logo-slider .slick-current svg path {
+	transition: all .3s ease-out;
+	fill: #666;
+}
+
+.logo-slider .slick-current svg path {
+	fill: #1cded3;
 }
 
 .shop-slider-image img {
@@ -620,7 +654,7 @@
 	text-transform: uppercase;
 	white-space: nowrap;
 	position: absolute;
-	bottom: 46px;
+	bottom: 38px;
 	right: 106px;
 	font-weight: 400;
 	display: flex;
@@ -642,6 +676,36 @@
 	width: 100%;
 }
 
+.fancybox-button--thumbs {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.fancybox-thumbs__list {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99999;
+	height: 30px;
+}
+.fancybox-thumbs__list a {
+	width: 10px;
+	height: 10px;
+	background: none !important;
+}
+
+.fancybox-thumbs__list a:before {
+	border: 2px solid #999999;
+	transition: all .3s ease-out;
+	opacity: 1;
+}
+.fancybox-thumbs__list a.fancybox-thumbs-active:before{
+	border: 2px solid #666666;
+	opacity: 1;
+}
+
 .teach .fancybox-thumbs__list {
 	display: flex;
 	width: 200px;
@@ -653,17 +717,28 @@
 
 
 .teach {
-	margin-top: 245px;
-	margin-bottom: 234px;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	background-color: #f7f7f7;
+}
+
+.teach-right-column  .container {
+	padding: 0;
+	margin: 0;
 }
 
 .teach-wrapper {
 	display: flex;
 	justify-content: space-between;
+	max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .teach-left-column {
-	width: 50%;
+	width: 100%;
 }
 
 .teach-right-column {
@@ -688,6 +763,7 @@
 	color: #242424;
 	text-transform: uppercase;
 	margin-top: 0;
+
 }
 
 .sh-descr {
@@ -762,7 +838,7 @@
 	margin-bottom: 124px;
 }
 
-.shop-printers-slide {
+.shop-printers-slide .printers-wrap {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
@@ -770,6 +846,7 @@
 
 .shop-printers-slide .slide-printer-title{
 	font-size: 40px;
+	white-space: nowrap;
 }
 
 .shop-printers-slide .mb-xs {
@@ -782,11 +859,12 @@
 }
 
 .mr-bottom {
-	margin-bottom: 114px;
+	margin-bottom: 80px;
 }
 
 .shop-printers-slider .slick-slide {
 	display: flex;
+	transition: all .3s ease-out;
 }
 
 /* End shop printers */
@@ -816,11 +894,17 @@
 	padding: 0;
 	list-style-type: none;
 	justify-content: space-between;
+	width: 100%;
 }
 
-.shop-advantages-advantage {
+.shop-advantages-list .slick-list {
+	width: 100%;
+}
+
+.shop-advantages-list .shop-advantages-advantage {
 	width: 25%;
 	display: flex;
+	transition: all .3s ease-out;
 }
 
 .shop-advantages-advantage img {
@@ -834,6 +918,10 @@
 	color: #666;
 	font-size: 16px;
 	font-family: 'CSRegular', sans-serif;	
+}
+
+.transform-left {
+	transform: translateX(-80px);
 }
 
 
@@ -931,6 +1019,7 @@
 	margin-bottom: 0;
 }
 
+
 .shop-input {
 	background: none;
 	border: none;
@@ -944,6 +1033,22 @@
 	outline: none;
 }
 
+.shop-input:hover, .shop-input:active, .shop-input:focus, .shop-input:visited {
+	background-color: #f7f7f7;
+}
+
+.shop-question-area {
+	color: #666;
+}
+
+.shop-question-area:hover, .shop-question-area:active, .shop-question-area:focus {
+	background-color: #f7f7f7;
+}
+
+.text-in {
+	background-color: #f7f7f7;
+}
+
 .shop-input::placeholder {
 	font-size: 16px;
 	color: #666;
@@ -954,6 +1059,7 @@
 	justify-content: space-between;
 	align-items: center;
 	mask-type: 33px;
+	font-family: 'CSRegular', sans-serif;
 }
 
 .inputs-column-right {
@@ -981,6 +1087,7 @@
 .form-capcha-question {
 	white-space: nowrap;
 	margin-right: 33px;
+	font-family: 'CSRegular', sans-serif;
 }
 
 .shop-capcha-answ {
@@ -1050,6 +1157,7 @@
 	padding: 10px 36px;
 	margin-right: 11px;
 }
+
 
 
 /* End shop form */
@@ -1254,7 +1362,157 @@
 	color: #666;
 }
 
+.main-header-phone-icon {
+	width: 16px;
+	display: inline-block;
+}
+
+.main-header-phone-icon:hover svg path {
+	fill: #2dd7ca;
+}
+
 /* End footer*/
 
+/* Modal */
 
+.shop main {
+	position: relative;
+}
+
+.overlay {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	background-color: #666666;
+	opacity: 0.8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+}
+
+.shop-modal {
+	display: none;
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	width: 320px;
+	background-color: #fff;
+	z-index: 4;
+}
+
+.shop-modal-form {
+	width: 100%;
+	padding: 32px 30px 18px 30px;
+
+}
+
+.modal-title-wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+
+.modal-form-title {
+	font-size: 20px;
+	color: #666666;
+	text-transform: uppercase;
+	font-family: 'CSRegular', sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+.r-line {
+	width: 20px;
+	height: 1px;
+	background-color: #666;
+	margin: 0 6px;
+	display: block;
+}
+
+.unic-title {
+	color: #1dded2;
+}
+
+.modal-close {
+	margin-left: auto;
+	border: none;
+	background: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.modal-close:after, .modal-close:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 21px;
+	height: 1px;
+	background-color: #666;
+}	
+
+.modal-close:before{
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.modal-close:after {
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.shop-modal .input-wrapper-area textarea{
+	height: 98px;
+	max-height: 98px;
+}
+
+.shop-modal .shop-capcha-wrap-mob {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+}
+
+.shop-modal .shop-capcha-answ {
+	width: 100px;
+}
+
+.shop-modal .form-capcha-question {
+	font-size: 15px;
+	margin-right: 4px;
+}
+
+.shop-modal .shop-addFile-wrap span svg {
+	display: block !important;
+	width: 28px;
+}
+
+.shop-modal .shop-btn-submit {
+	padding: 15px 35px;
+}
+
+.shop-modal .shop-addFile-wrap {
+	height: 44px;
+}
+
+.shop-addFile-wrap:hover .svg-icon path{
+	fill: #f7f7f7;
+}
+
+
+.shop-modal .input-wrapper-mail {
+	margin-bottom: 23px;
+}
+
+.shop-modal .shop-question-area {
+	margin-bottom: 18px;
+}
+
+.shop-modal .input-wrapper:before {
+	left: 10px;
+}
 
